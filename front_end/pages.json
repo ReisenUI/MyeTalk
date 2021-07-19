@@ -1,0 +1,606 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/user/start",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/test/test"
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"backgroundColor": "#f9f9f9",
+				"onReachBottomDistance": 50,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/relief/movie",
+			"style": {
+				"navigationBarTitleText": "你好，李焕英",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#98dcef"
+			}
+		},
+		{
+			"path": "pages/relief/book",
+			"style": {
+				"navigationBarTitleText": "追的风筝的人",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#3975a2"
+			}
+		},
+		{
+			"path": "pages/relief/playmusic"
+			
+		},
+		{
+			"path": "pages/relief/joke",
+			"style": {
+				"navigationBarTitleText": "笑话精选",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/relief/jokedetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/relief/relief",
+			"style": {
+				"navigationBarTitleText": "解压",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fcfcfc"
+			}
+		},
+		{
+			"path": "pages/relief/tarot",
+			"style": {
+				"navigationBarTitleText": "塔罗牌"
+			}
+		},
+		{
+			"path": "pages/relief/game2",
+			"style": {
+				"navigationBarTitleText": "2048小游戏"
+			}
+		},
+		{
+			"path": "pages/relief/card/card1",
+			"style": {
+				"navigationBarTitleText": "选牌"
+			}
+		},
+		{
+			"path": "pages/relief/card/card2",
+			"style": {
+				"navigationBarTitleText": "选牌"
+			}
+		},
+		{
+			"path": "pages/relief/card/card3",
+			"style": {
+				"navigationBarTitleText": "选牌"
+			}
+		},
+		{
+			"path": "pages/relief/card/card4",
+			"style": {
+				"navigationBarTitleText": "选牌"
+			}
+		},
+		{
+			"path": "pages/relief/articledetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/relief/draw",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/relief/game2048",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/relief/paint",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/relief/music",
+			"style": {
+				"navigationBarTitleText": "命运交响曲",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#e3f7f6"
+			}
+		},
+		{
+			"path": "pages/user/components/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/user/components/individuation",
+			"style": {
+				"navigationBarTitleText": "个性化"
+			}
+		},
+		{
+			"path": "pages/user/components/modification",
+			"style": {
+				"navigationBarTitleText": "个人信息修改",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							// 	{
+							// 	"text": "\ue697",
+							// 	"fontSrc": "/static/user/iconfont.ttf",
+							// 	"fontSize": "25",
+							// 	"float": "left",
+							// 	"color": "#000",
+							// 	"name": "back"
+							// },
+							{
+								"text": "\ue69e",
+								"fontSrc": "/static/user/iconfont.ttf",
+								"fontSize": "25",
+								"float": "right",
+								"color": "#000",
+								"name": "confirm"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/components/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/user/components/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+
+			}
+		},
+		{
+			"path": "components/xwa105-gesturePassword/gestureLock",
+			"style": {
+				"navigationBarTitleText": "手势锁"
+			}
+		},
+		{
+			"path": "pages/user/components/changename",
+			"style": {
+				"navigationBarTitleText": "昵称修改"
+			}
+		},
+		{
+			"path": "pages/user/components/changeintro",
+			"style": {
+				"navigationBarTitleText": "个人简介修改"
+			}
+		},
+		{
+			"path": "pages/user/components/chooseavatar",
+			"style": {
+				"navigationBarTitleText": "个人头像修改"
+			}
+		},
+		{
+			"path": "pages/writeDiary/chooseWeather/chooseWeather",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F9F9F9",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/writeDiary/chooseMood/chooseMood",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F9F9F9",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/writeDiary/chooseActivity/chooseActivity",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F9F9F9",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/community-passage/community-passage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community-newPassage/community-newPassage",
+			"style": {
+				"navigationBarTitleText": "故事",
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"text": "\e65c",
+				// 			"fontSrc": "/static/icon/iconfont.ttf",
+				// 			"fontSize": "25",
+				// 			"float": "right",
+				// 			"color": "#000",
+				// 			"name": "newPassage"
+				// 		}]
+				// 	}
+				// }
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"float": "right",
+							"text": "发表",
+							"color": "#000",
+							"fontSize": "16"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/community-personalCenter/community-personalCenter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mainLeft/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#09181F",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#09181f", // 自带回退箭头颜色
+						"backgroundColor": "#fff",
+						"searchInput": {
+							"backgroundColor": "#f5f5f5",
+							"borderRadius": "100px",
+							"placeholder": "请输入标题或正文关键字",
+							"placeholderColor": "#b9b9b9",
+							"disabled": false, // 是否禁用
+							"align": "left"
+						},
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "筛选\ue581",
+							"width": "40px",
+							"fontSize": "20rpx",
+							"color": "#787878",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mainLeft/search/detail/detail",
+			"style": {
+				// "navigationBarTextStyle": "black", // white/black
+				"navigationBarTitleText": "搜索结果",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#a6a6a6",
+							"hight": "1px"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/community/community-message/community-message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community/message-chat/message-chat",
+			"style": {
+				"navigationBarTitleText": "评论消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community-passage/passage-lingxian/passage-lingxian",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/message-like/message-like",
+			"style": {
+				"navigationBarTitleText": "通知消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community-passage/passage-ajimide/passage-ajimide",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/community-message/community-message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community/message-chat/message-chat",
+			"style": {
+				"navigationBarTitleText": "评论消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community-passage/passage-lingxian/passage-lingxian",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/relief/passage-lingxian",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/message-like/message-like",
+			"style": {
+				"navigationBarTitleText": "通知消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/community-passage/passage-ajimide/passage-ajimide",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mainLeft/collection/collection",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mainLeft/collection/collection",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F9F9F9",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mainLeft/draft/draft",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/writeDiary/writeDiary/writeDiary",
+			"style": {
+				"navigationBarTitleText": "2021年5月",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#09181f", // 自带回退箭头颜色
+						"backgroundColor": "#fff",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue472",
+							"width": "40px", // 不支持rpx
+							"fontSize": "50rpx",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mainLeft/list/list",
+			"style": {
+				"navigationBarTitleText": "2021年5月",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#09181f", // 自带回退箭头颜色
+						"backgroundColor": "#fff"
+						/* ,
+												"buttons": [{
+													"fontSrc": "/static/uni.ttf",
+													"text": "\ue409",
+													"width": "35px", // 不支持rpx
+													"fontSize": "55rpx",
+													"background": "rgba(0,0,0,0)"
+												}] */
+					}
+				}
+			}
+		}, {
+			"path": "pages/readDiary/readDiary",
+			"style": {
+				"navigationBarTitleText": "2021年5月",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#09181f", // 自带回退箭头颜色
+						"backgroundColor": "#fff",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue537",
+							"width": "40px", // 不支持rpx
+							"fontSize": "50rpx",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/community-passage/commentsDetail/commentsDetail",
+			"style": {
+				"navigationBarTitleText": "评论详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/community-personalCenter/self-personalCenter/self-personalCenter",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "ReisenU",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTextStyle": "black", // 只有黑白
+		"backgroundColor": "#f9f9f9"
+	},
+	"tabBar": {
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index-choose.png"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"iconPath": "static/tabs/community.png",
+				"selectedIconPath": "static/tabs/community-choose.png"
+			},
+			{
+				"pagePath": "pages/relief/relief",
+				"iconPath": "static/tabs/relief.png",
+				"selectedIconPath": "static/tabs/relief-choose.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabs/my.png",
+				"selectedIconPath": "static/tabs/my-choose.png"
+			}
+		]
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 3, //当前激活的模式(list 的索引项)
+		"list": [{
+				"name": "weather", //模式名称
+				"path": "pages/writeDiary/chooseWeather/chooseWeather", //启动页面，必选
+				"query": "?name=zcx&greet=早上&today=2021年3月26日" //启动参数，在页面的onLoad函数里面得到
+			},
+			{
+				"name": "detail", //模式名称
+				"path": "pages/mainLeft/search/detail/detail" //启动页面，必选
+			},
+			{
+				"name": "search", //模式名称
+				"path": "pages/mainLeft/search/search" //启动页面，必选
+			},
+			{
+				"name": "index", //模式名称
+				"path": "pages/index/index" //启动页面，必选
+			},
+			{
+				"name": "writeDiary", //模式名称
+				"path": "pages/writeDiary/writeDiary/writeDiary" //启动页面，必选
+			}, {
+				"name": "modification", //模式名称
+				"path": "pages/user/components/modification" //启动页面，必选
+			}
+		]
+	}
+}
